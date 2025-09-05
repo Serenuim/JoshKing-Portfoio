@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function EmailCopy() {
   const [copied, setCopied] = useState(false);
-  const email = "joshking@example.com";
+  const email = "joshkingweb@gmail.com";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(email);
